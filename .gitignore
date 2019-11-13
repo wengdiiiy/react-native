@@ -1,0 +1,61 @@
+# See https://help.github.com/ignore-files/ for more about ignoring files.
+
+/.idea
+shopping-web.iml
+
+# dependencies
+node_modules
+packages/**/node_modules
+
+# tslint
+.vscode
+checkstyle-result.xml
+
+# testing
+coverage
+logs
+.cache
+packages/**/coverage
+packages/**/logs
+packages/**/.cache
+
+# build
+build
+dist
+.cache-loader
+packages/**/build
+packages/**/.cache-loader
+
+# apidoc
+packages/api/docs
+
+# misc
+packages/**/.DS_Store
+packages/**/.env.local
+packages/**/.env.development.local
+packages/**/.env.test.local
+packages/**/.env.production.local
+
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# intellij
+*.iml
+
+# mac os
+.DS_Store
+
+# sprite
+**/Common/scss/png/*
+**/Common/scss/svg/*
+**/public/img/sprite/*
+
+# npmrc
+packages/**/.npmrc
+
+# storybook
+packages/**/storybook-static
+
+# gitbook output
+pages/gitbook/**/_book
